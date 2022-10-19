@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     return res.status(status.OK).json(
-        apiResponse( status.OK, 'OK', 'API Routes')
+        apiResponse( status.OK, 'OK', 'API Routes was updated.')
     );
 });
 
